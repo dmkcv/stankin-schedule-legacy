@@ -1,0 +1,12 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gitignore
+.idea/
+apidoc.json
+storage/latest
+storage/updated
+storage/raw/*/
+storage/temp/ftp/*
+storage/temp/*.xml
+vendor/
+*.log
+/engine/config.php

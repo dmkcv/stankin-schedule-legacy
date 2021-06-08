@@ -1,0 +1,10 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . index.php [L]
+
+RewriteCond %{HTTP:Authorization} ^(.*)
+RewriteRule .* - [e=HTTP_AUTHORIZATION:%1]
+
+RedirectMatch 404 /\.git
+
+php_value memory_limit 512M

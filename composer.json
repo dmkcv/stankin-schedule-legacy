@@ -1,0 +1,19 @@
+{
+    "name": "dm/raspapi",
+    "authors": [
+        {
+            "name": "Dmitry Kochev",
+            "email": "kochevd@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "go/db": "^2.2",
+        "altorouter/altorouter": "^1.2",
+        "league/plates": "^3.3",
+        "monolog/monolog": "^1.22"
+    },
+    "autoload": {
+        "classmap" : ["engine/"]
+    }
+}

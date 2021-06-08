@@ -1,0 +1,56 @@
+textarea, input[type=text] {
+    -webkit-appearance: none;
+    width: 12.17em !important;
+}
+
+message {
+    display: block;
+    padding: 2em;
+    background: #def;
+    border-left: 5px solid #44e;
+}
+
+sm-message {
+    display: block;
+    padding: 0.5em;
+    background: #def;
+    border-left: 5px solid #44e;
+}
+
+.warning {
+    border-color: #e44;
+    background: #fdd;
+}
+
+.great {
+    border-color: #2d2;
+    background: #dfd;
+}
+
+.error {
+    border-color: #f74961;
+    background: #ffd3d3;
+}
+
+.add {
+    text-align: right;
+}
+
+.status {
+    height: 45px;
+    line-height: 45px;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+.fupload {
+    display: none;
+}
+
+span.on {
+    background: #3c5;
+}
+
+span.off {
+    background: #ffff00;
+}
