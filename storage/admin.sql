@@ -40,4 +40,4 @@ CREATE TABLE IF NOT EXISTS `users` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 INSERT INTO `users` (`id`, `login`, `password`) VALUES
-	(1, 'admin', '$2y$10$fahYFJHNuWwYZJfUGVev7uwl9mvfFXN2mWjF6i2VFAIfpl.29gejG');
+	(1, 'admin', '$2y$10$dsqi9liaBjwyeD17TBADa.SjhfojlaRJEvFZqUA1qaUW5GkQKBC7a');
